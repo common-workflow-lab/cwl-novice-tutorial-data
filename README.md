@@ -23,6 +23,10 @@ This template should be used to create a new git repository. The steps to do thi
 ```
 conda env create --file cwltutorial.yml
 ```
+To activate the conda environment for these once they are installed use:
+```
+conda activate cwltutorial
+```
 
 If you do not wish to use conda to install these then alternative install instructions 
 are included on the course [Setup page](https://carpentries-incubator.github.io/cwl-novice-tutorial/setup.html).

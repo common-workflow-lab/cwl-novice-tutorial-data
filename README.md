@@ -10,12 +10,18 @@ Before following the tutorial you will need to install [VSCode](https://code.vis
  
 #### Setup Instructions
 
-This template should be used to create a new git repository. The steps to do this are:
+This repository can be cloned directly to your computer, or the template can be used to create a new git repository, for you to store the scripts that you create during the tutorial for later reference. The steps for the two options are listed below. In each option the `--recursive` flag is used when cloning the repository locally. This automatically loads the bio-cwl-tools library too, using `git submodules`.
+
+##### 1. Creating your own github repository
 
 1. Click the `Use this template` button, and create a new repository on github as you would usually
    * Before the next step you can, if you wish, copy this repository to a different git service (such as [gitlab](https://gitlab.com/)).  
 2. Clone the repository locally, using `git clone --recursive [template address]` (the `[template address]` can be got from the `Code` button at the top of the page)
-   * Using the `--recursive` flag will automatically load the bio-cwl-tools library for you, using `git submodules`.
+   
+##### 2. Cloning direct from this repository
+
+1. Clone the repository locally, using `git clone --recursive https://github.com/common-workflow-lab/cwl-novice-tutorial-data.git`
+   
 
 #### CWLTool and Graphviz Install Instructions
 
